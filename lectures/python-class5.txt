@@ -1,0 +1,4 @@
+***dictionary***
+dict={key:value,key:value,Key:value}
+cars={'alto':maruti, 'x320':'van','i20':'hyundai'}
+cars={}

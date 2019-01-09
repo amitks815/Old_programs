@@ -1,0 +1,11 @@
+
+fh=open('test.txt','w+')
+fh.write('the color brown')
+fh.seek(11)   
+print(fh.read(5))
+print(fh.tell())
+fh.seek(11)
+fh.write('green')
+fh.seek(0)
+content = fh.read()
+print(content)

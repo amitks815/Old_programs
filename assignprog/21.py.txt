@@ -1,0 +1,34 @@
+import math
+import random
+
+num=input("Enter a floating point number=")
+
+list=[1,2,3,4,5,6]
+print "Round of the floating number =", round(num,3)
+
+print "square root of the input is =", math.sqrt(num)
+
+print "Random number generation between 0 and 1 is=",random.random()
+
+print "Random number generation between 10 and 500 is=", random.uniform(10,500)
+
+print "Absolute value of number=",abs(num)
+
+print "floor value of number=", math.floor(num)
+
+print "ceiling value of number=", math.ceil(num)
+
+print "Logarthmic value of number=",math.log(num)
+
+print "Power of number times 2=", math.pow(num,2)
+
+print "Exponent of number=", math.exp(num)
+
+print "Random item from a list=",random.choice(list)
+
+random.shuffle(list)
+print "shuffle the list=",list
+
+print "Random range between 1 to 100 in step size of 10=",random.randrange(1,100,10)
+
+

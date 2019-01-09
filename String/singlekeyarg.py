@@ -1,0 +1,1 @@
+""" 4.	Get the 3 inputs in single key board input method and assign into three variables """

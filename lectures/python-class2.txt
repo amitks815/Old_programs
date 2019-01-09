@@ -1,0 +1,77 @@
+*****variables****
+*all the variables in python are class object 
+* VARIABLE START WITH cgharacher (myname) meant for public
+*variable start with single underscore(_myname) meant for private
+*variable start with double underscore(__myname) meant for strongly private
+*variable start and end with double underscore (__name__) is called language specific variable.
+*Identifier is used to define  classs ,method ,function,module and object .
+*(#)is used to comment single line command.{#iamamit}
+*(''' or"""") is used to comment multiple line
+
+''''
+abc
+cdf
+jkkj
+kl;lk
+'''' 
+
+*type() is define for data type .
+*id() is produce memory allocation .
+*dir() is produce supportable method for that particular data type(like property,characteristics,method).
+
+There is no restriction for defining the data type in python .
+namespace
+identifier 
+python 2 is funcy]tion oriented but python 3 is class oriented .
+x=10
+print type(x),id(x),x
+
+x="ten"
+print type(y),id(y),y
+x=100
+print type(x),dir(x),x
+
+
+
+x=y=z=10
+print x
+print y
+print z
+
+x=y=z=10
+x=100
+y=100
+z=100
+
+print x
+print y
+print z
+
+x,y,z=100,200,300
+print x
+print y
+print z
+
+x=200,300,400 treat as tuple.
+(200,300,400)
+
+x="abc"
+b=int(x)
+print(x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

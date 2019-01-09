@@ -1,0 +1,8 @@
+str1 = raw_input("Enter a string=")
+
+print "alert=","\a",str1
+print "backspace=","\b",str1
+print "Tab=","\t",str1
+print "carriage return=","\r",str1
+print "vertical tab=","\v",str1
+print "Newline=","\n",str1

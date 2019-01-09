@@ -1,0 +1,29 @@
+list=input("Enter a list of 5 names=")
+str=raw_input("Enter the name to be searched in list=")
+print list
+
+######### using Membership operator #############
+
+if(str in list):
+    print "The searched name %s is present in the list" % (str)
+else:
+    print "%s not present in list" % (str)
+
+################ END ##################
+
+##### without membership operator ########
+
+if(list.count(str)!=0):
+    print "The searched name %s is present in the list" % (str)
+else:
+    print "%s not present in list" % (str)
+
+#######   END   ###########
+
+
+print "The reversed list is =", list[::-1]
+
+
+
+
+

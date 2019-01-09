@@ -1,0 +1,11 @@
+tup=input("Enter a tuple of 10 elements=")
+for i in tup:
+    print i
+
+print "tuple 1 with slicing=", tup[1:2], "\ntuple 2 with slicing=",tup[4:9],"\ntuple 3 with slicing=", tup[3:], "\ntuple 4 with slicing=", tup[:-1]
+
+print "tuple repetition for 100 times", tup*100
+
+tup1=input("Enter another tuple of 5 elements=")
+
+print "tuple concatenation=", tup+tup1

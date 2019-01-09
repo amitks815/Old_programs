@@ -1,0 +1,11 @@
+list=input("Enter a list of 10 elements=")
+for i in list:
+    print i
+
+print "list 1 with slicing=", list[1:2], "\nlist 2 with slicing=",list[4:9],"\nlist 3 with slicing=", list[3:], "\nlist 4 with slicing=", list[:-1]
+
+print "list repetition for 100 times", list*100
+
+list1=input("Enter another list of 5 elements=")
+
+print "list concatenation=", list+list1

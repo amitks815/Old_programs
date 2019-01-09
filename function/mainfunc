@@ -1,0 +1,7 @@
+def printname(a):
+	print("amit")
+	
+def main():
+	a=printname(a)
+
+main()

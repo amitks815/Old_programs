@@ -1,0 +1,30 @@
+import os 
+print help(os)
+
+
+x = "iam learning"
+y = "python"
+z="%s %s" %(x,y)
+print z
+print x,y
+print x+y
+
+
+x = 100
+y = "python"
+z="%s %s" %(x,y)
+print z
+print x,y
+print str(x)+y  -------  type casting
+
+
+*******LIST**********
+list=[1,2,3,4,5,6]
+
+
+x=[1,2,3,4,5,8]
+y=[100,200]
+x.append (300)
+x.insert(1,400)
+x[1]=500
+x.extend(y)

@@ -1,0 +1,25 @@
+list=input("Enter a list of 10 elements=")
+total=0
+length=len(list)
+for i in list:
+    total=total+i
+
+
+avg=total/length
+count1=0
+count2=0
+count3=0
+print "average of 10 numbers is", avg
+
+for i in list:
+    if(i < avg):
+        count1+=1
+
+    elif(i>avg):
+        count2+=1
+
+    else:
+        count3+=1
+
+print "Greater than average=", count2,"\n","less than average=", count1,"\n","and equal to average=", count3
+

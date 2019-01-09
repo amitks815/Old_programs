@@ -1,0 +1,9 @@
+a,b=input("Enter a set of elements=")
+c,d=input("Enter another set of elements=")
+num=complex(a,b)
+num1=complex(c,d)
+
+print "Addition of 2 complex numbers =", num+num1
+print "\nSubtraction of 2 complex numbers =", num-num1
+print "\nMultiplication of 2 complex numbers =", num*num1
+print "\nDivision of 2 complex numbers =", num/num1

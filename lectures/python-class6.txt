@@ -1,0 +1,59 @@
+backtick-(`)
+caret-(^)
+astrisk-(*)
+
+*****user input*****
+name=input("enter the value")
+
+if we pass value as arun then it will though name error so have to give input as 'arun'.
+
+arun will  be treated as variable
+
+name=raw_input("enter the vale")
+
+(store value as string )
+
+
+age=raw_input("your age")
+
+(store age value as string.)
+**************************************************
+python-3
+
+s=input("enter the value ")
+
+take everthing as a string..
+
+
+name=eval(input("what's is your name")
+age =eval(input("what's age")
+
+
+************************************************************
+
+command line arguments..
+
+
+
+
+
+
+
+
+
+
+module ---program files 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

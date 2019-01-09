@@ -1,0 +1,16 @@
+str=raw_input("Enter a string:")
+for i in range(len(str)):
+    print str[i]
+
+str1=str[2:]
+str2=str[:10]
+str3=str[3:7]
+str4=str[:-1]
+
+print "string 1 with slicing=", str1, "\nstring 2 with slicing=",str2,"\nString 3 with slicing=", str3, "\nString 4 with slicing=", str4
+
+print "string repetition for 100 times", str*100
+
+str5=raw_input("Enter another string:")
+
+print "string concatenation=", str+str5

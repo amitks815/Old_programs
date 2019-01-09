@@ -1,0 +1,24 @@
+num,num1=input("Enter a set of elements=")
+
+add=num
+add+=num1
+sub=num
+sub-=num1
+mul=num
+mul*=num1
+div=num
+div/=num1
+mod=num
+mod%=num
+exp=num
+exp**=num1
+floor=num
+floor//=num1
+
+print "Addition using assignment operator =", add
+print "\nSubtraction using assignment operator =", sub
+print "\nMultiplication using assignment operator =", mul
+print "\nDivision using assignment operator =", div
+print "\nModulus using assignment operator =", mod
+print "\nExponent using assignment operator =", exp
+print "\nFloor division using assignment operator =", floor

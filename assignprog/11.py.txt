@@ -1,0 +1,10 @@
+num,num1=input("Enter a set of elements=")
+
+
+print "Bitwise or  =", num|num1
+print "\nBitwise and =", num&num1
+print "\nBitwise xor =", num^num1
+print "\n Binary one's complement =", ~num
+print "\n Left shift =", num<<num1
+print "\n Right shift =", num>>num1
+

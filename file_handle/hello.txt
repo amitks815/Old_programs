@@ -1,0 +1,18 @@
+this is file here !
+this is IP 102.108.123.251
+subnet mask is 255.255.255.224
+gateway ip is 102.108.123.1
+i like to work in networking field 
+python is most valuable script language
+
+abchey@gmail.com
+fight.This@yahoo.edu
+root-2-here@my-work.net
+
+amit kumar
+123-234
+123.123
+
+
+https://www.google.com
+http://pycharm.deu

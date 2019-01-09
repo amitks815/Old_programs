@@ -1,0 +1,14 @@
+list=input("Enter a list with N elements=")
+
+search=input("Enter a random element to be searched in list=")
+
+print search
+
+for i in list:
+    if(i==search):
+        print "search sucessful and element found in list"
+        break
+else:
+    print "element not found in list"
+
+

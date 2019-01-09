@@ -1,0 +1,13 @@
+str="hello"
+char='z'
+num=100.3233
+
+print "character is %c" % char
+print "string is %s" % str
+print "signed decimal is %d" % num
+print "Floating point number is %f" % num
+print "unsigned decimal is %u" % num
+print "octal number is %o" % num
+print "Hexadecimal number is %x" % num
+print "Exponential notation is %e" % num
+

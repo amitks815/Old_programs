@@ -1,0 +1,28 @@
+list=input("Enter a list of emp-id=")
+list1=input("Enter a list of emp name=")
+len=len(list)
+print "length is",len
+for i in list1:
+    print "name=", i
+
+index=input("Enter an index value=")
+
+print "value of emp-id list by the index value is=", list[index]
+
+print "\nvalue of emp name list by the index value is=", list1[index]
+
+print "\nEmp names from 4th to 9th position is =", list1[4:10]
+
+print "\nEmp names from 3rd to end =", list1[3:]
+
+print "\nRepeat the emp-id list n times ", list*index
+
+print "\nRepeat the emp name list n times ", list1*index
+
+print "\nconcatenation of 2 lists=", list+list1
+i=0
+while(i<len):
+    print "Emp id is=",list[i],"and Emp name is=",list1[i]
+    i+=1
+
+

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1819341,
+    "first_seen": "2013-04-30",
+    "expected_move_in": "2013-05-03",
+    "shown_unit": "2013-05-07",
+    "agent_id": 3516,
+    "marketing_source": null,
+    "application_submitted": "2013-05-03",
+    "application_approved": "2013-05-03",
+    "application_denied": null,
+    "application_canceled": null,
+    "lease_signed": "2013-05-03",
+    "resident_rent": 495,
+    "unit_name": "419-6-C2"
+  },
+  {
+    "id": 1819343,
+    "first_seen": "2013-04-30",
+    "expected_move_in": "2013-05-06",
+    "shown_unit": "2013-04-30",
+    "agent_id": 3516,
+    "marketing_source": null,
+    "application_submitted": "2013-05-06",
+    "application_approved": "2013-05-06",
+    "application_denied": null,
+    "application_canceled": null,
+    "lease_signed": "2013-05-06",
+    "resident_rent": 495,
+    "unit_name": "425-5-C3"
+  },
+  {
+    "id": 1819346,
+    "first_seen": "2013-05-16",
+    "expected_move_in": "2013-06-17",
+    "shown_unit": "2013-05-18",
+    "agent_id": 3516,
+    "marketing_source": null,
+    "application_submitted": null,
+    "application_approved": null,
+    "application_denied": null,
+    "application_canceled": null,
+    "lease_signed": null,
+    "resident_rent": null,
+    "unit_name": null
+  },
+{
+    "id": 1819913,
+    "first_seen": "2014-04-08",
+    "expected_move_in": "2014-04-11",
+    "shown_unit": null,
+    "agent_id": 3519,
+    "marketing_source": null,
+    "application_submitted": null,
+    "application_approved": null,
+    "application_denied": null,
+    "application_canceled": null,
+    "lease_signed": null,
+    "resident_rent": null,
+    "unit_name": null
+  }
+]

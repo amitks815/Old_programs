@@ -1,0 +1,102 @@
+*****DATA type*****
+#String
+x="i am a string"
+print(type(x),x)
+
+*python3 is object oriented and everything treated as class but python2 is function oriented language. 
+*function is a system defined method which can be used anywhere .
+"double quotes " is preferable.
+"double single' quote "  
+
+***index****
+x="greenaplle"
+print x[0]
+print x[2:] 2 eill be start index till end .
+print x[:5] 5 will be end index from start .
+print x[3:7] 3 is inclusive and 7 is exclusive .
+
+
+x=10
+y="apple"
+
+z= "i have %S %S in my basket" %(x,y)-------python 2
+
+z= "i have {} {} in my basket".format(x,y)----python 3
+z= "i have  {0} {1} in my basket".format(x,y)
+z= "i have {0}{1} in my basket{} {} ".format(x,y)---{} can used to print n times .
+
+
+print(z) 
+
+%s---string(it will accept all kind of data type)
+%d---integer/digit
+
+# string methods
+s="i am good"
+upper----s.upper>"I AM GOOD"
+lower----s.lower>
+capitalize---> the first letter of string
+swapcase--->>upper to lower and lower to upper .
+find----s.find('a')---find the index of value .
+replace
+center
+strip----s='   i am srting   '---s.strip()--->i am strip
+rstrip= 
+lstrip
+isnum
+concatenation.
+repetition 
+
+
+x="this is string"
+
+
+s='stringg'
+print s.strip('g')
+
+
+******string methods*******
+ 'capitalize', ----make first letter 'captial'
+ 'casefold',
+ 'center', 
+ 'count',----count number of argument in string
+ 'encode', 
+ 'endswith',-----return true or false 
+ 'expandtabs', 
+ 'find', ---find index position of char
+ 'format',
+ 'format_map', 
+ 'index', 
+ 'isalnum', 
+ 'isalpha',
+ 'isdecimal',
+ 'isdigit',
+ 'isidentifier', 
+ 'islower',
+ 'isnumeric', 
+ 'isprintable',
+ 'isspace', 
+ 'istitle',
+ 'isupper', 
+ 'join', 
+ 'ljust',
+ 'lower',
+ 'lstrip', 
+ 'maketrans',
+ 'partition', 
+ 'replace',
+ 'rfind', 
+ 'rindex',
+ 'rjust',
+ 'rpartition',
+ 'rsplit', 
+ 'rstrip', 
+ 'split', 
+ 'splitlines', 
+ 'startswith',
+ 'strip',
+ 'swapcase',
+ 'title',
+ 'translate',
+ 'upper',
+ 'zfill'

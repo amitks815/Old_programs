@@ -1,0 +1,25 @@
+def large(alist):
+    largest=alist[0]
+    for large in alist:
+        if large > largest:
+            largest=large
+
+    return largest
+
+def small(alist):
+    smallest=alist[0]
+    for small in alist:
+        if small < smallest:
+            smallest=small
+    return smallest
+
+
+alist=input("Enter a list having N numbers:=")
+
+largest=large(alist)
+
+smallest=small(alist)
+
+print "largest number in the list =", largest
+
+print "smallest number in the list =", smallest
